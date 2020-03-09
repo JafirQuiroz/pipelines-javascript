@@ -20,8 +20,8 @@ steps:
     npm run build
   displayName: 'npm install and build'
   
-steps:
 - task: PublishPipelineArtifact@1
   inputs:
     path: $(System.DefaultWorkingDirectory)
     artifact: WebApp
+  displayName: 'Publishing Artifact'  
