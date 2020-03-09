@@ -20,6 +20,3 @@ steps:
     npm run build
   displayName: 'npm install and build'
   
-- task: PublishBuildArtifact@1
-  inputs:
-    PathToPublish: '$(System.DefaultWorkingDirectory)'
