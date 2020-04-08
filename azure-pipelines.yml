@@ -22,6 +22,6 @@ steps:
   
 - task: PublishPipelineArtifact@1
   inputs:
-    #path: $(System.DefaultWorkingDirectory)\appService
-    artifact: WebApp
+    path: $(System.DefaultWorkingDirectory)
+    artifact: WebAppArtifact
   displayName: 'Publishing Artifact'  
